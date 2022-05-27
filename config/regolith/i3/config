@@ -179,32 +179,32 @@ bindsym $mod+Ctrl+$ws7_key workspace number $ws17
 bindsym $mod+Ctrl+$ws8_key workspace number $ws18
 bindsym $mod+Ctrl+$ws9_key workspace number $ws19
 
-## Navigate // Next Workspace // <> Tab ##
-set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next Tab
+## Navigate // Next Workspace // <> i ##
+set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next i
 bindsym $mod+$i3-wm.binding.ws_next workspace next
 
 ## Navigate // Next Workspace // <><Alt> → ##
 set_from_resource $i3-wm.binding.ws_next2 i3-wm.binding.ws_next2 Mod1+Right
 bindsym $mod+$i3-wm.binding.ws_next2 workspace next
 
-## Navigate // Next Workspace on Output // <><Ctrl> Tab ##
-set_from_resource $i3-wm.binding.ws_next_on_output i3-wm.binding.ws_next_on_output Ctrl+Tab
+## Navigate // Next Workspace on Output // <><Ctrl> i ##
+set_from_resource $i3-wm.binding.ws_next_on_output i3-wm.binding.ws_next_on_output Ctrl+i
 bindsym $mod+$i3-wm.binding.ws_next_on_output workspace next_on_output
 
 ## Navigate // Next Workspace on Output // <><Ctrl> l ##
 set_from_resource $i3-wm.binding.ws_next_on_output2 i3-wm.binding.ws_next_on_output2 Ctrl+l
 bindsym $mod+$i3-wm.binding.ws_next_on_output2 workspace next_on_output
 
-## Navigate // Previous Workspace // <><Shift> Tab ##
-set_from_resource $i3-wm.binding.ws_prev i3-wm.binding.ws_prev Shift+Tab
+## Navigate // Previous Workspace // <> u ##
+set_from_resource $i3-wm.binding.ws_prev i3-wm.binding.ws_prev u
 bindsym $mod+$i3-wm.binding.ws_prev workspace prev
 
 ## Navigate // Previous Workspace // <><Alt> ← ##
 set_from_resource $i3-wm.binding.ws_prev2 i3-wm.binding.ws_prev2 Mod1+Left
 bindsym $mod+$i3-wm.binding.ws_prev2 workspace prev
 
-## Navigate // Previous Workspace on Output // <><Ctrl><Shift> Tab ##
-set_from_resource $i3-wm.binding.ws_prev_on_output i3-wm.binding.ws_prev_on_output Ctrl+Shift+Tab
+## Navigate // Previous Workspace on Output // <><Ctrl> u ##
+set_from_resource $i3-wm.binding.ws_prev_on_output i3-wm.binding.ws_prev_on_output Ctrl+u
 bindsym $mod+$i3-wm.binding.ws_prev_on_output workspace prev_on_output
 
 ## Navigate // Previous Workspace on Output // <><Ctrl> h ##
@@ -454,8 +454,8 @@ set_from_resource $i3-wm.binding.load_layout i3-wm.binding.load_layout period
 bindsym $mod+$i3-wm.binding.load_layout exec /usr/bin/i3-snapshot -c < /tmp/i3-snapshot
 
 # Toggle bar visibility
-## Modify // Toggle Bar // <> i ##
-set_from_resource $i3-wm.binding.bar_toggle i3-wm.binding.bar_toggle i
+## Modify // Toggle Bar // <><Shift> i ##
+set_from_resource $i3-wm.binding.bar_toggle i3-wm.binding.bar_toggle Shift+i
 bindsym $mod+$i3-wm.binding.bar_toggle bar mode toggle
 
 # Cause Settings app to float above tiled windows
