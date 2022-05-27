@@ -43,7 +43,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1="\n${debian_chroot:+($debian_chroot)}\[\033[01;91m\]\u \[\033[01;34m\]@ \[\033[01;32m\]\h \[\033[01;34m\]: \[\033[1;33m\]\w \[\033[1;34m\]\n\\$ \[$(tput sgr0)\]"
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1="\n${debian_chroot:+($debian_chroot)}\u @ \h : \w\n\\$ \[$(tput sgr0)\]"
 fi
 unset color_prompt force_color_prompt
 
@@ -100,7 +100,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -115,3 +114,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# So, Ctrl-D doesn't exit tmux
+set -o ignoreeof  # Same as setting IGNOREEOF=10
