@@ -18,3 +18,4 @@
 - [i3] Change alternate workspace navigation keybindings to j/semicolon.
 - [i3] Change scratchpad keybindings to Minus.
 - [i3] Reduce default gap to 0.
+- [i3] Change horizontal split keybinding to h.
