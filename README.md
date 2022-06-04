@@ -6,7 +6,6 @@
 
 ## Setup
 - [Display] Set scaling to 200%.
-- [Browser] Download and install Brave.
 - [Browser] Download 1Password browser extenstion and sign in.
 - [Dotfiles] Install git.
 - [Dotfiles] Clone derrickdominic/dotfiles.git from github.com.
