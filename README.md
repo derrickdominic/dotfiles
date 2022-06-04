@@ -12,6 +12,8 @@
 - [Dotfiles] Clone derrickdominic/dotfiles.git from github.com.
 - [Mouse] Turn off natural scrolling.
 - [Mouse] Increase touchpad speed.
+- [Network] `gsettings set org.gnome.nm-applet disable-connected-notifications "true"`.
+- [Network] `gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"`.
 
 ## Differences from stock Regolith v1.6
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
