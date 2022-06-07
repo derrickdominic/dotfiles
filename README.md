@@ -13,7 +13,6 @@
 - [Mouse] Increase touchpad speed.
 - [Network] `gsettings set org.gnome.nm-applet disable-connected-notifications "true"`.
 - [Network] `gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"`.
-
 - [Emacs] M-x package-refresh-contents.
 - [Emacs] M-x package-install-selected-packages.
 
@@ -23,3 +22,4 @@
 - [i3] Change scratchpad keybindings to Minus.
 - [i3] Reduce default gap to 0.
 - [i3] Change horizontal split keybinding to h.
+- [i3] Start Emacs daemon on startup.
