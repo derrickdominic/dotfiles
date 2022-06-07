@@ -14,6 +14,9 @@
 - [Network] `gsettings set org.gnome.nm-applet disable-connected-notifications "true"`.
 - [Network] `gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"`.
 
+- [Emacs] M-x package-refresh-contents.
+- [Emacs] M-x package-install-selected-packages.
+
 ## Differences from stock Regolith v1.6
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
 - [i3] Change alternate workspace navigation keybindings to j/semicolon.
