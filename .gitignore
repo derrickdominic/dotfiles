@@ -1,4 +1,6 @@
 *~
 \#*\#
 .\#*
+
+config/nyxt/auto-config.lisp
 emacs.d/elpa
