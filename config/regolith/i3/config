@@ -99,6 +99,10 @@ bindsym $mod+$i3-wm.binding.browser exec gtk-launch $(xdg-settings get default-w
 
 set_from_resource $rofiTheme rofi.theme /etc/regolith/styles/lascaille/rofi.rasi
 
+## Launch // Emacs // <> e##
+set_from_resource $i3-wm.binding.emacs i3-wm.binding.emacs e
+bindsym $mod+$i3-wm.binding.emacs exec emacsclient -c -n
+
 ## Launch // Application // <> Space ##
 set_from_resource $i3-wm.binding.launcher.app i3-wm.binding.launcher.app space
 set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme

@@ -23,3 +23,4 @@
 - [i3] Reduce default gap to 0.
 - [i3] Change horizontal split keybinding to h.
 - [i3] Start Emacs daemon on startup.
+- [i3] Add e keybinding to start an Emacs client.
