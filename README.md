@@ -15,6 +15,7 @@
 - [Network] `gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"`.
 - [Emacs] M-x package-refresh-contents.
 - [Emacs] M-x package-install-selected-packages.
+- [Regolith] Install i3xrocks-battery.
 
 ## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
