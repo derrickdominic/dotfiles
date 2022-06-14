@@ -24,4 +24,4 @@
 - [i3] Change horizontal split keybinding to h.
 - [i3] Start Emacs daemon on startup.
 - [i3] Add e keybinding to start an Emacs client.
-- [Regolith] Set wallpaper to one of the 22.04 wallpapers.
+- [Regolith] Set desktop and lockscreen wallpapers to one of the 22.04 wallpapers.
