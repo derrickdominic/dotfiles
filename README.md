@@ -1,8 +1,8 @@
 # dotfiles
 
 ## Requirements
-- Ubuntu 20.04
-- Regolith v1.6 (PPA install)
+- Ubuntu 22.04
+- Regolith v2.0 (PPA install)
 
 ## Setup
 - [Display] Set scaling to 200%.
@@ -16,7 +16,7 @@
 - [Emacs] M-x package-refresh-contents.
 - [Emacs] M-x package-install-selected-packages.
 
-## Differences from stock Regolith v1.6
+## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
 - [i3] Change alternate workspace navigation keybindings to j/semicolon.
 - [i3] Change scratchpad keybindings to Minus.
@@ -24,3 +24,4 @@
 - [i3] Change horizontal split keybinding to h.
 - [i3] Start Emacs daemon on startup.
 - [i3] Add e keybinding to start an Emacs client.
+- [Regolith] Set wallpaper to one of the 22.04 wallpapers.
