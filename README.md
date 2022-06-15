@@ -8,7 +8,7 @@
 - [Display] Set scaling to 200%.
 - [Browser] Download 1Password browser extenstion and sign in.
 - [Dotfiles] Install git.
-- [Dotfiles] Clone derrickdominic/dotfiles.git from github.com.
+- [Dotfiles] Clone https://github.com/derrickdominic/dotfiles.
 - [Mouse] Turn off natural scrolling.
 - [Mouse] Increase touchpad speed.
 - [Network] `gsettings set org.gnome.nm-applet disable-connected-notifications "true"`.
@@ -22,6 +22,7 @@
 - [Regolith] Remove regolith-i3-navigation (defaults).
 - [Regolith] Remove regolith-i3-resize (defaults).
 - [Regolith] Remove regolith-i3-workspace-config (defaults).
+- [Terminal] Clone https://github.com/0xcomposure/monokai-gnome-terminal and run install.sh.
 
 ## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.

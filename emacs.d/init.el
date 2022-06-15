@@ -24,9 +24,10 @@ There are two things you can do about this warning:
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("78e6be576f4a526d212d5f9a8798e5706990216e9be10174e3f3b015b8662e27" default))
  '(package-selected-packages
-   (quote
-    (fill-column-indicator golden-ratio-scroll-screen async popup helm helm-swoop yasnippet)))
+   '(monokai-theme fill-column-indicator golden-ratio-scroll-screen async popup helm helm-swoop yasnippet))
  '(vc-follow-symlinks t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -459,6 +460,9 @@ point reaches the beginning or end of the buffer, stop there."
 
 ;; Enable my-keys-minor-mode. Must be last statement of init.el.
 (my-keys-minor-mode 1)
+
+;; Load the Monokai theme.
+(load-theme 'monokai t)
 
 (provide 'init)
 ;;; init.el ends here
