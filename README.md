@@ -2,7 +2,7 @@
 
 ## Requirements
 - Ubuntu 22.04
-- Regolith v2.0 (PPA install)
+- Regolith v2.0 (https://regolith-desktop.com)
 
 ## Setup
 - [Display] Set scaling to 200%.
@@ -16,6 +16,12 @@
 - [Emacs] M-x package-refresh-contents.
 - [Emacs] M-x package-install-selected-packages.
 - [Regolith] Install i3xrocks-battery.
+- [Regolith] Remove regolith-i3-base-launchers (defaults).
+- [Regolith] Remove regolith-i3-gaps-partial (defaults).
+- [Regolith] Remove regolith-i3-i3xrocks (defaults).
+- [Regolith] Remove regolith-i3-navigation (defaults).
+- [Regolith] Remove regolith-i3-resize (defaults).
+- [Regolith] Remove regolith-i3-workspace-config (defaults).
 
 ## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.

@@ -1,2 +1,4 @@
 regolith.wallpaper.file: /usr/share/backgrounds/ubuntu_by_arman1992.jpg
 regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/ubuntu_by_arman1992.jpg
+i3-wm.gaps.inner.size: 0
+i3-wm.program.1: emacs --daemon
