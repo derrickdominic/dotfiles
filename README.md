@@ -22,7 +22,9 @@
 - [Regolith] Remove regolith-i3-navigation (defaults).
 - [Regolith] Remove regolith-i3-resize (defaults).
 - [Regolith] Remove regolith-i3-workspace-config (defaults).
-- [Terminal] Clone https://github.com/0xcomposure/monokai-gnome-terminal and run install.sh.
+- [Terminal] Create a new profile called "Monokai".
+- [Terminal] Clone https://github.com/0xcomposure/monokai-gnome-terminal and run install.sh to update the "Monokai" profile to the Monokai color scheme.
+- [Terminal] Set the "Monokai" profile as thedefault.
 
 ## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
