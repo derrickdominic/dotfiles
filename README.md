@@ -13,6 +13,7 @@
 - [Mouse] Increase touchpad speed.
 - [Network] `gsettings set org.gnome.nm-applet disable-connected-notifications "true"`.
 - [Network] `gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"`.
+- [Network] Install net-tools (for ipconfig).
 - [Emacs] M-x package-refresh-contents.
 - [Emacs] M-x package-install-selected-packages.
 - [i3] Clone https://github.com/rkashapov/i3blocks-pomodoro to ~/repo.
