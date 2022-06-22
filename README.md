@@ -8,7 +8,7 @@
 - [Display] Set scaling to 200%.
 - [Browser] Download 1Password browser extenstion and sign in.
 - [Dotfiles] Install git.
-- [Dotfiles] Clone https://github.com/derrickdominic/dotfiles.
+- [Dotfiles] Clone https://github.com/derrickdominic/dotfiles to ~/dotfiles.
 - [Mouse] Turn off natural scrolling.
 - [Mouse] Increase touchpad speed.
 - [Network] `gsettings set org.gnome.nm-applet disable-connected-notifications "true"`.
@@ -25,6 +25,7 @@
 - [Terminal] Create a new profile called "Monokai".
 - [Terminal] Clone https://github.com/0xcomposure/monokai-gnome-terminal and run install.sh to update the "Monokai" profile to the Monokai color scheme.
 - [Terminal] Set the "Monokai" profile as thedefault.
+- [i3] Clone https://github.com/rkashapov/i3blocks-pomodoro to ~/repo.
 
 ## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
@@ -35,3 +36,4 @@
 - [i3] Start Emacs daemon on startup.
 - [i3] Add e keybinding to start an Emacs client.
 - [Regolith] Set desktop and lockscreen wallpapers to one of the 22.04 wallpapers.
+- [i3] Add Pomodoro blocklet to bar.

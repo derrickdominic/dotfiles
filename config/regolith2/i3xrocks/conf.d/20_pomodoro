@@ -1,0 +1,3 @@
+[pomodoro]
+command=~/repo/i3blocks-pomodoro/pomodoro
+interval=1
