@@ -24,6 +24,7 @@
 - [i3] Remove regolith-i3-resize (defaults).
 - [i3] Remove regolith-i3-workspace-config (defaults).
 - [i3] Install i3xrocks-battery.
+- [i3] Install i3xrocks-rofication.
 - [i3] Install i3xrocks-volume.
 - [i3] Install i3xrocks-weather.
 - [Terminal] Create a new profile called "Monokai".
