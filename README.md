@@ -30,6 +30,7 @@
 - [Terminal] Create a new profile called "Monokai".
 - [Terminal] Clone https://github.com/0xcomposure/monokai-gnome-terminal and run install.sh to update the "Monokai" profile to the Monokai color scheme.
 - [Terminal] Set the "Monokai" profile as thedefault.
+- [Bluetooth] Install blueman (Bluetooth on systray).
 
 ## Differences from stock Regolith v2.0
 - [i3] Change window navigation/move keybindings to j/k/l/semicolon.
