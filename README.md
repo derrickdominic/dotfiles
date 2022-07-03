@@ -16,7 +16,6 @@
 - [Network] Install net-tools (for ipconfig).
 - [Emacs] M-x package-refresh-contents.
 - [Emacs] M-x package-install-selected-packages.
-- [i3] Clone https://github.com/rkashapov/i3blocks-pomodoro to ~/repo.
 - [i3] Remove regolith-i3-base-launchers (defaults).
 - [i3] Remove regolith-i3-gaps-partial (defaults).
 - [i3] Remove regolith-i3-i3xrocks (defaults).
@@ -40,7 +39,6 @@
 - [i3] Change horizontal split keybinding to h.
 - [i3] Start Emacs daemon on startup.
 - [i3] Add e keybinding to start an Emacs client.
-- [i3] Add Pomodoro blocklet to bar.
 - [i3] Add volume blocklet to bar.
 - [i3] Add weather blocklet to bar.
 - [Regolith] Set desktop and lockscreen wallpapers to one of the 22.04 wallpapers.
